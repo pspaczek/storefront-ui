@@ -83,13 +83,13 @@ export default {
       },
       defaultValue: "heart",
     },
-    isOnWishlistIcon: {
+    isInWishlistIcon: {
       control: "text",
       table: {
         category: "Props",
       },
     },
-    isOnWishlist: {
+    isInWishlist: {
       control: "boolean",
       table: {
         category: "Props",
@@ -143,8 +143,8 @@ const Template = (args, { argTypes }) => ({
     :regular-price="regularPrice"
     :special-price="specialPrice"
     :wishlist-icon="wishlistIcon"
-    :is-on-wishlist-icon="isOnWishlistIcon"
-    :is-on-wishlist="isOnWishlist"
+    :is-in-wishlist-icon="isInWishlistIcon"
+    :is-in-wishlist="isInWishlist"
     :show-add-to-cart-button="showAddToCartButton"
     :add-to-cart-disabled="addToCartDisabled"
     :is-added-to-cart="isAddedToCart"
@@ -179,7 +179,7 @@ AddedToCart.args = {
 export const AddedToWishlist = Template.bind({});
 AddedToWishlist.args = {
   ...Common.args,
-  isOnWishlist: true,
+  isInWishlist: true,
 };
 
 export const WithMultipleImages = Template.bind({
@@ -222,8 +222,8 @@ export const UseImageSlot = (args, { argTypes }) => ({
     :regular-price="regularPrice"
     :special-price="specialPrice"
     :wishlist-icon="wishlistIcon"
-    :is-on-wishlist-icon="isOnWishlistIcon"
-    :is-on-wishlist="isOnWishlist"
+    :is-in-wishlist-icon="isInWishlistIcon"
+    :is-in-wishlist="isInWishlist"
     :show-add-to-cart-button="showAddToCartButton"
     :add-to-cart-disabled="addToCartDisabled"
     :is-added-to-cart="isAddedToCart"
@@ -256,8 +256,8 @@ export const UseAddToCart = (args, { argTypes }) => ({
     :regular-price="regularPrice"
     :special-price="specialPrice"
     :wishlist-icon="wishlistIcon"
-    :is-on-wishlist-icon="isOnWishlistIcon"
-    :is-on-wishlist="isOnWishlist"
+    :is-in-wishlist-icon="isInWishlistIcon"
+    :is-in-wishlist="isInWishlist"
     :show-add-to-cart-button="showAddToCartButton"
     :add-to-cart-disabled="addToCartDisabled"
     :is-added-to-cart="isAddedToCart"
@@ -290,8 +290,8 @@ export const UseTitleSlot = (args, { argTypes }) => ({
     :regular-price="regularPrice"
     :special-price="specialPrice"
     :wishlist-icon="wishlistIcon"
-    :is-on-wishlist-icon="isOnWishlistIcon"
-    :is-on-wishlist="isOnWishlist"
+    :is-in-wishlist-icon="isInWishlistIcon"
+    :is-in-wishlist="isInWishlist"
     :show-add-to-cart-button="showAddToCartButton"
     :add-to-cart-disabled="addToCartDisabled"
     :is-added-to-cart="isAddedToCart"
@@ -324,8 +324,8 @@ export const UseWishlistIconSlot = (args, { argTypes }) => ({
     :regular-price="regularPrice"
     :special-price="specialPrice"
     :wishlist-icon="wishlistIcon"
-    :is-on-wishlist-icon="isOnWishlistIcon"
-    :is-on-wishlist="isOnWishlist"
+    :is-in-wishlist-icon="isInWishlistIcon"
+    :is-in-wishlist="isInWishlist"
     :show-add-to-cart-button="showAddToCartButton"
     :add-to-cart-disabled="addToCartDisabled"
     :is-added-to-cart="isAddedToCart"
@@ -358,8 +358,8 @@ export const UsePriceSlot = (args, { argTypes }) => ({
     :regular-price="regularPrice"
     :special-price="specialPrice"
     :wishlist-icon="wishlistIcon"
-    :is-on-wishlist-icon="isOnWishlistIcon"
-    :is-on-wishlist="isOnWishlist"
+    :is-in-wishlist-icon="isInWishlistIcon"
+    :is-in-wishlist="isInWishlist"
     :show-add-to-cart-button="showAddToCartButton"
     :add-to-cart-disabled="addToCartDisabled"
     :is-added-to-cart="isAddedToCart"
@@ -392,8 +392,8 @@ export const UseReviewsSlot = (args, { argTypes }) => ({
     :regular-price="regularPrice"
     :special-price="specialPrice"
     :wishlist-icon="wishlistIcon"
-    :is-on-wishlist-icon="isOnWishlistIcon"
-    :is-on-wishlist="isOnWishlist"
+    :is-in-wishlist-icon="isInWishlistIcon"
+    :is-in-wishlist="isInWishlist"
     :show-add-to-cart-button="showAddToCartButton"
     :add-to-cart-disabled="addToCartDisabled"
     :is-added-to-cart="isAddedToCart"
